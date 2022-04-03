@@ -1,0 +1,216 @@
+@import url("http://fonts.cdnfonts.com/css/recoleta");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  font-family: 'Recoleta', sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 150vh;
+  background-image: url("img/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main .navbar {
+  width: 100%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .navbar .nav {
+  width: 94%;
+  height: 51px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .navbar .nav .bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pro {
+  font-size: 80px !important;
+  font-weight: 400 !important;
+  text-align: start;
+}
+
+.h3 {
+  font-weight: 300 !important;
+}
+
+.h3::after {
+  content: "";
+  font-weight: 300 !important;
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 22px;
+  margin-left: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 20px;
+  background: #ff2759;
+  -webkit-transition: 1s;
+  transition: 1s;
+  border: 1px solid #ff2759;
+}
+
+.button:hover {
+  background: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+  border: none;
+  border: 1px solid #ff2759;
+}
+
+.icon:hover span {
+  -webkit-transition: 1s;
+  transition: 1s;
+  text-decoration: underline;
+}
+
+.container video {
+  width: 100%;
+}
+
+button {
+  background-color: #ff2759;
+  color: white;
+  border: none;
+  width: 140px;
+  border: 1px solid #ff2759;
+}
+
+.h {
+  cursor: pointer;
+}
+
+@media (max-width: 992) {
+  .pro {
+    font-size: 30px !important;
+    font-weight: 500 !important;
+  }
+}
+
+.con {
+  width: 100%;
+}
+
+.con .vid {
+  max-width: 100%;
+  margin-top: 80px;
+}
+
+@media (min-width: 300px) {
+  .main {
+    height: 70vh !important;
+  }
+  .pro {
+    font-size: 40px !important;
+  }
+}
+
+@media (min-width: 400px) {
+  .main {
+    height: 130vh !important;
+  }
+  .pro {
+    font-size: 40px !important;
+  }
+}
+
+@media (min-width: 750px) {
+  .main {
+    height: 125vh !important;
+  }
+  .pro {
+    font-size: 40px !important;
+  }
+}
+
+@media (min-width: 825px) {
+  .main {
+    height: 100vh !important;
+  }
+  .pro {
+    font-size: 75px !important;
+  }
+}
+
+.hh {
+  font-size: 22px;
+}
+/*# sourceMappingURL=style.css.map */

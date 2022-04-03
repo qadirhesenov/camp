@@ -1,0 +1,134 @@
+@import url('http://fonts.cdnfonts.com/css/recoleta');       
+*{
+     font-family: 'Recoleta', sans-serif;     
+}
+.main{
+    width: 100%;
+    height: 150vh;
+    background-image: url("img/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .navbar{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .nav{
+            width: 94%;
+            height: 51px;
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+            .bar{
+                display: flex;
+            }
+
+        }
+    }
+}
+.pro{
+    font-size: 80px !important;
+    font-weight: 400 !important;
+    text-align: start;
+}
+.h3{
+    font-weight: 300 !important;
+    &::after{
+            content: "";
+            font-weight: 300 !important;
+
+            width: 25px;
+            height: 2px;
+            background-color: white;
+            display: flex;
+            margin-top: 22px;
+            margin-left:10px;
+    }
+}
+.button{
+    display: inline-block;
+    padding: 20px;
+    background: #ff2759;
+    transition: 1s;
+    border: 1px solid #ff2759;
+    &:hover{
+        background: none;
+        transition: 1s;
+        border: none;
+        border: 1px solid #ff2759;
+    }
+}
+.icon{
+    &:hover{
+        span{
+            transition: 1s;
+            text-decoration: underline;
+        }
+    }
+}
+.container{
+    video{
+        width: 100%;
+    }
+}
+button{
+    background-color: #ff2759;
+    color:white;
+    border: none;
+    width: 140px;
+    border:1px solid #ff2759
+}
+.h{
+    cursor: pointer;
+}
+@media(max-width:992){
+    .pro{
+        font-size: 30px !important;
+        font-weight: 500 !important;
+    }
+}
+.con{
+    width: 100%;
+    .vid{
+        max-width: 100%;
+        margin-top: 80px;
+    }
+}
+    
+@media(min-width:300px){
+    .main{
+        height: 70vh !important;
+    }
+    .pro{
+        font-size: 40px !important;
+    }
+}
+@media(min-width:400px){
+    .main{
+        height: 130vh !important;
+    }
+    .pro{
+        font-size: 40px !important;
+    }
+}
+@media(min-width:750px){
+    .main{
+        height: 125vh !important;
+    }
+    .pro{
+        font-size: 40px !important;
+    }
+}
+@media(min-width:825px){
+    .main{
+        height: 100vh !important;
+    }
+    .pro{
+        font-size: 75px !important;
+    }
+}
+.hh{
+    font-size: 22px;
+}
